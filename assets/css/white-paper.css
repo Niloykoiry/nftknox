@@ -1,3 +1,7 @@
+.white-paper {
+  padding: 60px 0;
+  background: #7e4da7;
+}
 .white-paper a {
   text-decoration: underline;
 }
@@ -10,10 +14,6 @@
 .white-paper li {
   font-size: 18px;
 }
-.white-paper {
-  margin: 120px 0;
-}
-
 .logo-img {
   width: 100%;
   height: auto;
@@ -41,7 +41,7 @@ ul.social-links {
   margin-left: 20px;
 }
 .placeholder-heading {
-  margin: 80px 0;
+  margin: 30px 0;
   font-size: 24px;
 }
 .value-asset {
@@ -57,7 +57,6 @@ ul.social-links {
 .extra-space {
   margin-right: 118px !important;
 }
-
 .address-list li span {
   margin-right: 60px;
 }
