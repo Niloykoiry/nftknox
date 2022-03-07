@@ -514,8 +514,17 @@ h6 {
   padding: 60px 0;
   background: #7e4da7;
 }
+.purple-gradient {
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(69, 3, 123, 0.8)
+  );
+  color: #fff;
+}
+
 .bg-purple-with-heading {
-  padding: 99px 0;
+  padding: 100px 0;
   background: #7e4da7;
 }
 .section-design {
@@ -528,7 +537,9 @@ h6 {
 .section-bg {
   background-color: #f9f8ff;
 }
-
+.section-gap {
+  margin: 80px 0;
+}
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -555,6 +566,111 @@ h6 {
 
 .section-title p {
   margin-bottom: 0;
+}
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+.services .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+.services .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.services .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+.services .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+.services .icon-box h4 a {
+  color: #2c4964;
+  transition: ease-in-out 0.3s;
+}
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.services .iconbox-blue i {
+  color: #47aeff;
+}
+.services .iconbox-blue:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-blue:hover .icon path {
+  fill: #47aeff;
+}
+.services .iconbox-orange i {
+  color: #ffa76e;
+}
+.services .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-orange:hover .icon path {
+  fill: #ffa76e;
+}
+.services .iconbox-pink i {
+  color: #e80368;
+}
+.services .iconbox-pink:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-pink:hover .icon path {
+  fill: #e80368;
+}
+.services .iconbox-yellow i {
+  color: #ffbb2c;
+}
+.services .iconbox-yellow:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
+}
+.services .iconbox-red i {
+  color: #ff5828;
+}
+.services .iconbox-red:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-red:hover .icon path {
+  fill: #ff5828;
+}
+.services .iconbox-teal i {
+  color: #11dbcf;
+}
+.services .iconbox-teal:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-teal:hover .icon path {
+  fill: #11dbcf;
 }
 
 /*--------------------------------------------------------------
@@ -616,7 +732,7 @@ h6 {
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .testimonials .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 25px;
   position: relative;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet {
@@ -633,6 +749,10 @@ h6 {
   .testimonials {
     margin: 30px 10px;
   }
+}
+.testimonials .testimonial-item p {
+  background-color: #7e4da7 !important;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -935,8 +1055,9 @@ h6 {
 .theme-btn {
   background-color: #460181 !important;
   color: #fff;
+  transform: all 0.3s;
 }
 .theme-btn:hover {
-  background-color: #7d4fa3 !important;
+  background-color: #31015a !important;
   color: #fff;
 }
