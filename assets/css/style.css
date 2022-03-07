@@ -510,12 +510,16 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  /* padding: 100px 0; */
-  overflow: hidden;
+.bg-purple {
+  padding: 60px 0;
+  background: #7e4da7;
 }
-.section-padding {
-  padding: 100px 0;
+.section-design {
+  margin: 60px 0;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .section-bg {
   background-color: #f9f8ff;
