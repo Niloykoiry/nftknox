@@ -581,7 +581,8 @@ h6 {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #7e4da7;
+  border-radius: 12px;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -613,7 +614,7 @@ h6 {
   font-size: 22px;
 }
 .services .icon-box h4 a {
-  color: #2c4964;
+  color: #fff;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -765,15 +766,13 @@ h6 {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: #7e4da7;
 }
-.faq .section-title h2,
+
 .faq .section-title p {
   color: #fff;
 }
-.faq .section-title h2::after {
-  background: rgba(255, 255, 255, 0.6);
-}
+
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -784,7 +783,7 @@ h6 {
 .faq .faq-list li + li {
   margin-top: 15px;
 }
-.faq .faq-list li {
+.faq .faq-list .faq-list-item {
   padding: 30px;
   background: #fff;
   border-radius: 5px;
