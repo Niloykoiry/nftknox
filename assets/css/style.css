@@ -126,9 +126,9 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
   background-image: linear-gradient(
-    to right,
-    rgba(79, 64, 240, 0.8),
-    rgba(123, 40, 217, 0.8)
+    45deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(69, 3, 123, 0.8)
   );
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 12px 0;
@@ -515,7 +515,7 @@ section {
   overflow: hidden;
 }
 .section-padding {
-  margin: 100px 0;
+  padding: 100px 0;
 }
 .section-bg {
   background-color: #f9f8ff;
@@ -532,6 +532,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: #c8a54b;
 }
 .section-title h2::after {
   content: "";
@@ -539,7 +540,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #45037b;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -603,8 +604,8 @@ section {
   font-size: 14px;
   background: linear-gradient(
       45deg,
-      rgba(86, 58, 250, 0.9) 0%,
-      rgba(116, 15, 214, 0.9) 100%
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(69, 3, 123, 0.9) 100%
     ),
     url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
@@ -743,6 +744,8 @@ section {
 .team-member {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 12px;
+  border: 2px solid #460181;
+  /* background-color: #dacde5; */
 }
 .team-member img {
   overflow: hidden;
@@ -752,4 +755,24 @@ section {
   .team-image-container {
     text-align: center;
   }
+}
+/* ===How It Works Section CSS=== */
+.how-it-works .work-list {
+  list-style-position: inside;
+  padding-left: 0;
+}
+.how-it-works .work-list li {
+  margin: 12px 0;
+}
+.how-it-works a {
+  text-decoration: underline;
+}
+/* ===Button=== */
+.theme-btn {
+  background-color: #460181 !important;
+  color: #fff;
+}
+.theme-btn:hover {
+  background-color: #7d4fa3 !important;
+  color: #fff;
 }
