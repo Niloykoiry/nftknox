@@ -37,37 +37,55 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"
-      ><img
-        src="./assets/img/logo/logo-large-gold.png"
-        alt="NftKnox Logo"
-        class="img-fluid"
-    /></a>
-<!-- Navbar Start -->
+      <h1 class="logo">
+        <a href="index.html"
+          ><img
+            src="./assets/img/logo/logo-large-gold.png"
+            alt="NftKnox Logo"
+        /></a>
+      </h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link" href="/">Home</a></li>
-          <li>
-            <a class="nav-link" href="/#about">About</a>
+          <li><a class="nav-link scrollto" href="/">Home</a></li>
+          <li class="dropdown">
+            <a href="#"
+              ><span>About</span> <i class="bi bi-chevron-down"></i
+            ></a>
+            <ul>
+              <li><a href="/how-it-works.html">How it Works?</a></li>
+              <li>
+                <a href="/social-responsibility.html"
+                  >Social Responsibility</a
+                >
+              </li>
+              <li><a href="/#editions" class="scrollto">Editions</a></li>
+            </ul>
           </li>
-          <li>
-            <a class="nav-link" href="/#team">Team</a>
-          </li>
-          <li class="dropdown active">
-            <a href="#"><span>Platform</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown">
+            <a href="/"
+              ><span>Platform</span> <i class="bi bi-chevron-down"></i
+            ></a>
             <ul>
               <li><a href="/register-wallet.html">Register Wallet</a></li>
               <li><a href="/create-listing.html">Create Listing</a></li>
               <li><a href="/redeem.html">Redeem NFT</a></li>
+              <li><a href="/proofs.html">Proofs</a></li>
             </ul>
           </li>
+          <li><a class="nav-link scrollto" href="/#team">Team</a></li>
+
           <li>
-            <a class="nav-link scrollto" href="/white-paper.html">White Paper</a>
+            <a class="nav-link scrollto" href="/white-paper.html"
+              >White Paper</a
+            >
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <!-- End Navbar -->
+      <!-- .navbar -->
     </div>
   </header>
   <!-- End Header -->
@@ -113,7 +131,7 @@
           <a href="https://www.instagram.com/thenftknox/" class="instagram"
             ><i class="bx bxl-instagram"></i
           ></a>
-          <a href="https://www.nftknox.com/" class="medium"
+          <a href="https://nftknox.medium.com/" class="medium"
             ><i class="bx bxl-medium"></i
           ></a>
           <a href="https://t.me/NFT_Knox" class="telegram"

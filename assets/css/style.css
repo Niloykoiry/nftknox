@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #c2a149;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -43,12 +43,14 @@ h6 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #440379;
   line-height: 0;
 }
 .back-to-top:hover {
   background: #7b27d8;
-  color: #fff;
+}
+.back-to-top:hover i {
+  color: #c2a149;
 }
 .back-to-top.active {
   visibility: visible;
@@ -392,6 +394,31 @@ h6 {
   height: 100vh;
   background: url("../img/banner.png") center center no-repeat;
   background-size: cover;
+  position: relative;
+}
+#hero .social-links {
+  position: absolute;
+  bottom: -165%;
+  /* left: 0; */
+}
+#hero .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  padding: 14px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+#hero .social-links a:hover {
+  background: #460181;
+  color: #d2ae53;
+  text-decoration: none;
 }
 #hero .container,
 #hero .container-fluid {
@@ -473,7 +500,7 @@ h6 {
 }
 @media (max-width: 575px), (max-height: 600px) {
   #hero {
-    height: auto;
+    /* height: auto; */
   }
 }
 
@@ -1043,4 +1070,7 @@ h6 {
 .theme-btn:hover {
   background-color: #31015a !important;
   color: #fff;
+}
+.team-member-content {
+  height: 360px;
 }

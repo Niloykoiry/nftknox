@@ -43,20 +43,17 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo">
-          <a href="index.html"
-            ><img
-              src="./assets/img/logo/logo-large-gold.png"
-              alt="NftKnox Logo"
-          /></a>
-        </h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
+        <a href="index.html" class="logo"
+          ><img
+            src="./assets/img/logo/logo-large-gold.png"
+            alt="NftKnox Logo"
+            class="img-fluid"
+        /></a>
+        <!-- Navbar Start -->
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="/">Home</a></li>
-            <li class="dropdown active">
+            <li><a class="nav-link scrollto" href="/">Home</a></li>
+            <li class="dropdown">
               <a href="#"
                 ><span>About</span> <i class="bi bi-chevron-down"></i
               ></a>
@@ -67,7 +64,7 @@
                     >Social Responsibility</a
                   >
                 </li>
-                <li><a href="#editions">Editions</a></li>
+                <li><a href="/#editions" class="scrollto">Editions</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -81,7 +78,7 @@
                 <li><a href="/proofs.html">Proofs</a></li>
               </ul>
             </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="/#team">Team</a></li>
 
             <li>
               <a class="nav-link scrollto" href="/white-paper.html"
@@ -91,7 +88,7 @@
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
-        <!-- .navbar -->
+        <!-- Navbar End-->
       </div>
     </header>
     <!-- End Header -->
@@ -118,7 +115,7 @@
               <a href="https://www.instagram.com/thenftknox/" class="instagram"
                 ><i class="bx bxl-instagram"></i
               ></a>
-              <a href="https://www.nftknox.com/" class="medium"
+              <a href="https://nftknox.medium.com/" class="medium"
                 ><i class="bx bxl-medium"></i
               ></a>
               <a href="https://t.me/NFT_Knox" class="telegram"
@@ -387,7 +384,7 @@
       <!-- ======= How it works Section ======= -->
       <!-- <section
         id="how-it-works"
-        class="how-it-works section-bg section-padding"
+        class="how-it-works section-padding"
       >
         <div class="container">
           <div class="row">
@@ -438,12 +435,6 @@
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div class="section-title">
             <h2>Platforms</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
           </div>
 
           <div class="row gy-4">
@@ -530,7 +521,7 @@
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="icon-box iconbox-yellow">
+              <div class="icon-box iconbox-teal">
                 <div class="icon">
                   <svg
                     width="100"
@@ -555,7 +546,7 @@
       </section>
       <!-- End Editions Section -->
 
-      <section id="editions" class="team section-bg">
+      <section id="editions" class="team section-gap">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>NFT KNOX EDITIONS</h2>
@@ -581,13 +572,13 @@
                         collectible comic books
                       </p>
                       <div class="mt-4">
+                        <a href="/store.html" class="theme-btn btn btn-lg"
+                          >Buy now</a
+                        >
                         <a
                           href="/editions.html"
                           class="theme-btn btn btn-lg me-3"
                           >History Of Comics</a
-                        >
-                        <a href="/store.html" class="theme-btn btn btn-lg"
-                          >Buy now</a
                         >
                       </div>
                     </div>
@@ -653,8 +644,7 @@
                 aria-label="4 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     Lindsay brings 15 years of experience specializing in
                     acquisition marketing program management and strategy. Her
                     data-driven analysis spans multi-million-dollar direct mail,
@@ -664,7 +654,6 @@
                     operate independently as a graphic designer specializing in
                     personalized gifts in tandem with her extensive corporate
                     resume for the last 10 years.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/linz.png"
@@ -682,8 +671,7 @@
                 aria-label="5 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     Mariel brings her support and organization skills, having
                     led hospitality teams of up to 60 for nearly a decade.
                     Working with Fortune 100 leadership to coordinate and
@@ -693,7 +681,6 @@
                     estate portfolio entailing renovation, restoration, sale,
                     and renting. Mariel continues to excel in balancing high
                     level priorities across an array of interests.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/mar.png"
@@ -712,8 +699,7 @@
                 aria-label="1 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     Britton is an investor, entrepreneur, and finance veteran.
                     In addition to his success in running $1B+ teams during his
                     finance tenure, he has successfully deployed innovative job
@@ -721,7 +707,6 @@
                     technology-aided real estate and manufacturing business
                     models. Britton is the Founder and Organizational Architect
                     of chicago 3 point 0, a web3 technology-based incubator.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/iver.png"
@@ -741,8 +726,7 @@
                 aria-label="2 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     John is a creative leader with two decades of experience
                     working in the federal and private sectors, managing
                     multi-disciplinary work units directed against complex,
@@ -752,7 +736,6 @@
                     bridging the virtual and physical worlds and the importance
                     of exploring DeFi, NFT, and cryptocurrency for real-world
                     utility.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/steele.png"
@@ -774,8 +757,7 @@
                 aria-label="4 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     Lindsay brings 15 years of experience specializing in
                     acquisition marketing program management and strategy. Her
                     data-driven analysis spans multi-million-dollar direct mail,
@@ -785,7 +767,6 @@
                     operate independently as a graphic designer specializing in
                     personalized gifts in tandem with her extensive corporate
                     resume for the last 10 years.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/linz.png"
@@ -805,8 +786,7 @@
                 aria-label="5 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     Mariel brings her support and organization skills, having
                     led hospitality teams of up to 60 for nearly a decade.
                     Working with Fortune 100 leadership to coordinate and
@@ -816,7 +796,6 @@
                     estate portfolio entailing renovation, restoration, sale,
                     and renting. Mariel continues to excel in balancing high
                     level priorities across an array of interests.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/mar.png"
@@ -836,8 +815,7 @@
                 aria-label="1 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     Britton is an investor, entrepreneur, and finance veteran.
                     In addition to his success in running $1B+ teams during his
                     finance tenure, he has successfully deployed innovative job
@@ -845,7 +823,6 @@
                     technology-aided real estate and manufacturing business
                     models. Britton is the Founder and Organizational Architect
                     of chicago 3 point 0, a web3 technology-based incubator.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/iver.png"
@@ -863,8 +840,7 @@
                 aria-label="2 / 5"
               >
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <p class="team-member-content">
                     John is a creative leader with two decades of experience
                     working in the federal and private sectors, managing
                     multi-disciplinary work units directed against complex,
@@ -874,7 +850,6 @@
                     bridging the virtual and physical worlds and the importance
                     of exploring DeFi, NFT, and cryptocurrency for real-world
                     utility.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img
                     src="assets/img/team/steele.png"
@@ -942,7 +917,7 @@
             <a href="https://www.instagram.com/thenftknox/" class="instagram"
               ><i class="bx bxl-instagram"></i
             ></a>
-            <a href="https://www.nftknox.com/" class="medium"
+            <a href="https://nftknox.medium.com/" class="medium"
               ><i class="bx bxl-medium"></i
             ></a>
             <a href="https://t.me/NFT_Knox" class="telegram"
