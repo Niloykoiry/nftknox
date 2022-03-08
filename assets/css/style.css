@@ -1,10 +1,3 @@
-/**
-* Template Name: Techie - v4.7.0
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -397,12 +390,6 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: linear-gradient(
-      45deg,
-      rgba(86, 58, 250, 0.9) 0%,
-      rgba(116, 15, 214, 0.9) 100%
-    ),
-    url("../img/hero-bg.jpg") center center no-repeat; */
   background: url("../img/banner.png") center center no-repeat;
   background-size: cover;
 }
@@ -541,6 +528,10 @@ h6 {
 .section-design:last-of-type {
   margin-bottom: 0;
 }
+.mt-60 {
+  margin-top: 60px !important;
+}
+
 .section-bg {
   background-color: #f9f8ff;
 }
@@ -575,16 +566,16 @@ h6 {
   margin-bottom: 0;
 }
 /*--------------------------------------------------------------
-# Services
+# Platforms
 --------------------------------------------------------------*/
-.services .icon-box {
+.platforms .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #7e4da7;
   border-radius: 12px;
 }
-.services .icon-box .icon {
+.platforms .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -594,105 +585,105 @@ h6 {
   transition: ease-in-out 0.3s;
   position: relative;
 }
-.services .icon-box .icon i {
+.platforms .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
-.services .icon-box .icon svg {
+.platforms .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
-.services .icon-box .icon svg path {
+.platforms .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
-.services .icon-box h4 {
+.platforms .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
-.services .icon-box h4 a {
+.platforms .icon-box h4 a {
   color: #fff;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box p {
+.platforms .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+.platforms .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
-.services .iconbox-blue i {
+.platforms .iconbox-blue i {
   color: #47aeff;
 }
-.services .iconbox-blue:hover .icon i {
+.platforms .iconbox-blue:hover .icon i {
   color: #fff;
 }
-.services .iconbox-blue:hover .icon path {
+.platforms .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
-.services .iconbox-orange i {
+.platforms .iconbox-orange i {
   color: #ffa76e;
 }
-.services .iconbox-orange:hover .icon i {
+.platforms .iconbox-orange:hover .icon i {
   color: #fff;
 }
-.services .iconbox-orange:hover .icon path {
+.platforms .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
-.services .iconbox-pink i {
+.platforms .iconbox-pink i {
   color: #e80368;
 }
-.services .iconbox-pink:hover .icon i {
+.platforms .iconbox-pink:hover .icon i {
   color: #fff;
 }
-.services .iconbox-pink:hover .icon path {
+.platforms .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
-.services .iconbox-yellow i {
+.platforms .iconbox-yellow i {
   color: #ffbb2c;
 }
-.services .iconbox-yellow:hover .icon i {
+.platforms .iconbox-yellow:hover .icon i {
   color: #fff;
 }
-.services .iconbox-yellow:hover .icon path {
+.platforms .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
-.services .iconbox-red i {
+.platforms .iconbox-red i {
   color: #ff5828;
 }
-.services .iconbox-red:hover .icon i {
+.platforms .iconbox-red:hover .icon i {
   color: #fff;
 }
-.services .iconbox-red:hover .icon path {
+.platforms .iconbox-red:hover .icon path {
   fill: #ff5828;
 }
-.services .iconbox-teal i {
+.platforms .iconbox-teal i {
   color: #11dbcf;
 }
-.services .iconbox-teal:hover .icon i {
+.platforms .iconbox-teal:hover .icon i {
   color: #fff;
 }
-.services .iconbox-teal:hover .icon path {
+.platforms .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# team
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
+.team .team-carousel,
+.team .team-slider {
   overflow: hidden;
 }
-.testimonials .testimonial-item {
+.team .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
 }
-.testimonials .testimonial-item .testimonial-img {
+.team .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
@@ -701,34 +692,34 @@ h6 {
   border: 6px solid #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-.testimonials .testimonial-item h3 {
+.team .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: #2c4964;
 }
-.testimonials .testimonial-item h4 {
+.team .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 0 45px;
 }
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
+.team .testimonial-item .quote-icon-left,
+.team .testimonial-item .quote-icon-right {
   color: #b1a9fc;
   font-size: 26px;
 }
-.testimonials .testimonial-item .quote-icon-left {
+.team .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
-.testimonials .testimonial-item .quote-icon-right {
+.team .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
-.testimonials .testimonial-item p {
+.team .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
@@ -739,31 +730,31 @@ h6 {
   z-index: 1;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
-.testimonials .swiper-pagination {
+.team .swiper-pagination {
   margin-top: 25px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.team .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #5846f9;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.team .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #5846f9;
 }
 @media (max-width: 767px) {
-  .testimonials {
+  .team {
     margin: 30px 10px;
   }
 }
-.testimonials .testimonial-item p {
+.team .testimonial-item p {
   background-color: #7e4da7 !important;
   color: #fff;
 }
 /*--------------------------------------------------------------
-# Frequently Asked Questions
+#About Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
   background: #7e4da7;
@@ -1030,22 +1021,7 @@ h6 {
   color: #fff;
   text-decoration: none;
 }
-/* ===Team Section CSS=== */
-.team-member {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border-radius: 12px;
-  border: 2px solid #460181;
-  /* background-color: #dacde5; */
-}
-.team-member img {
-  overflow: hidden;
-  border-radius: 12px;
-}
-@media screen and (max-width: 768px) {
-  .team-image-container {
-    text-align: center;
-  }
-}
+
 /* ===How It Works Section CSS=== */
 .how-it-works .work-list {
   list-style-position: inside;
@@ -1057,6 +1033,7 @@ h6 {
 .how-it-works a {
   text-decoration: underline;
 }
+
 /* ===Button=== */
 .theme-btn {
   background-color: #460181 !important;
