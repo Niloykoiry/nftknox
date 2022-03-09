@@ -284,7 +284,11 @@ h6 {
     left: -100%;
   }
 }
-
+@media (max-width: 413px) {
+  .buy-now-btn {
+    margin-bottom: 16px;
+  }
+}
 /**
 * Mobile Navigation 
 */
