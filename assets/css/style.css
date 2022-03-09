@@ -398,8 +398,7 @@ h6 {
 }
 #hero .social-links {
   position: absolute;
-  bottom: -165%;
-  /* left: 0; */
+  bottom: -80%;
 }
 #hero .social-links a {
   font-size: 20px;
@@ -785,6 +784,7 @@ h6 {
 --------------------------------------------------------------*/
 .faq {
   background: #7e4da7;
+  border-radius: 0;
 }
 
 .faq .section-title p {
@@ -1071,6 +1071,23 @@ h6 {
   background-color: #31015a !important;
   color: #fff;
 }
-.team-member-content {
+.team-image-container {
+  text-align: center;
+}
+
+.team .team-member-content {
   height: 360px;
+}
+@media screen and (max-width: 1400px) {
+  .team .team-member-content {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .team .team-member-content {
+    height: auto;
+  }
+  .team .testimonial-item {
+    min-height: auto;
+  }
 }
