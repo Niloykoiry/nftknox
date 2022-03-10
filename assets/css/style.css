@@ -284,7 +284,15 @@ h6 {
     left: -100%;
   }
 }
-
+.buy-now-btn {
+  margin-right: 16px;
+}
+@media (max-width: 413px) {
+  .buy-now-btn {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+}
 /**
 * Mobile Navigation 
 */
@@ -1099,8 +1107,11 @@ h6 {
   background-color: #31015a !important;
   color: #fff;
 }
-.team-image-container {
-  text-align: center;
+
+@media screen and (max-width: 768px) {
+  .team-image-container {
+    text-align: center;
+  }
 }
 
 .team .team-member-content {
