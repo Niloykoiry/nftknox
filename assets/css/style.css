@@ -733,7 +733,7 @@ h6 {
   border: 6px solid #c6a248;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-.team .testimonial-item h3 {
+.team .testimonial-item h3 a {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
