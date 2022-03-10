@@ -724,15 +724,28 @@ h6 {
   box-sizing: content-box;
   min-height: 320px;
 }
-.team .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: -40px 0 0 40px;
+.team-single-image {
   position: relative;
-  z-index: 2;
-  border: 6px solid #c6a248;
+  margin: -40px 0 0 40px;
+  width: 90px;
+  height: 90px;
+  background-color: #c6a248;
+  border-radius: 50%;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
+.team .testimonial-item .testimonial-img {
+  width: 80px;
+  height: 80px;
+  background-color: #c6a248;
+  z-index: 3;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .team .testimonial-item h3 a {
   font-size: 18px;
   font-weight: bold;
